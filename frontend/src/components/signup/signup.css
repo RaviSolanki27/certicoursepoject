@@ -1,0 +1,44 @@
+.signup-comp{
+    display: flex;
+    justify-content: center;
+    padding-top: 13rem;
+}
+.signup-form{
+display: flex;
+justify-content: center;
+margin-top: 10rem;
+}
+.inner-signup{
+    width: 50%;
+}
+.form-group{
+    margin: 1rem 0;
+    text-align: left;
+    color: aliceblue;
+}
+.signup-btn{
+    width: 100%;
+}
+.avatar-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.avatar-btn {
+    background: none;
+    border: 2px solid transparent;
+}
+.selected{
+    border: 2px solid #c9adc7;
+    background: none;
+    border-radius: 10%   ;
+}
+.avatar-btn:hover {
+    border: 2px solid #bbabba;
+    border-radius: 10%;
+}
+
+.avatar-img {
+    margin: 1rem;
+}

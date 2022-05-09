@@ -1,0 +1,60 @@
+.most-outer-div {}
+
+.card:hover {
+    transform: scale(1.1) !important;
+    transition: 0.5s;
+}
+
+.categories {
+    color: aliceblue;
+    margin-top: 3rem;
+    font-size: 3rem;
+    text-align: left;
+    padding: 0 8rem;
+}
+
+.card-outer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    align-items: center;
+    overflow: auto;
+}
+
+.card-outer::-webkit-scrollbar {
+    width: 4px;
+    height: 10px;
+
+    /* width of the entire scrollbar */
+}
+
+.card-outer::-webkit-scrollbar-track {
+    background: #2401223a;
+    height: 5px;
+    /* color of the tracking area */
+}
+
+.card-outer::-webkit-scrollbar-thumb {
+    background-color: #240122;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #240122;
+    /* creates padding around scroll thumb */
+}
+
+/* .card-outer {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+
+/* ------------------------ */
+.card-div {
+margin: 1rem;
+
+}
